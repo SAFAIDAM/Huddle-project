@@ -1,0 +1,837 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.logo img {
+  margin: 40px;
+  width: 170px;
+}
+.second-banner img {
+  margin-top: 60px;
+  width: 590px;
+  position: relative;
+  right: -780px;
+  top: -45px;
+}
+.main-banner .free {
+  position: relative;
+  right: -1200px;
+  top: -70px;
+  padding: 10px 60px 10px;
+  border-radius: 30px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 9px rgb(218, 218, 218);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+  transition: background-color 2s ease-out 100ms;
+  transition: 0.5s;
+}
+.main-banner .free:hover {
+  background-color: hsl(0, 0%, 100%);
+  transform: scale(1.1);
+  border: 1px solid hsl(0, 0%, 100%);
+  color: hsl(300, 1%, 62%);
+}
+.main-banner h1 {
+  position: relative;
+  top: -420px;
+  right: -40px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.main-banner p {
+  position: relative;
+  top: -420px;
+  right: -40px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.main-banner .get-free {
+  position: relative;
+  top: -400px;
+  right: -40px;
+  padding: 14px 70px 14px;
+  border-radius: 30px;
+  border: 1px solid hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  transition: background-color 2s ease-out 100ms;
+  color: white;
+  transition: 0.5s;
+  box-shadow: 1px 1px 9px rgb(218, 218, 218);
+}
+.main-banner .get-free:hover {
+  background-color: hsl(322, 100%, 82%);
+  transform: scale(1.1);
+  border: 1px solid hsl(322, 100%, 82%);
+  color: hsl(322, 31%, 33%);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -300px;
+  height: 290vh;
+  background-color: white;
+}
+.cont1 img {
+  width: 360px;
+  position: relative;
+  right: -780px;
+  top: -70px;
+}
+.cont1 p {
+  position: relative;
+  right: -100px;
+  top: 140px;
+  font-family: "Poppins", sans-serif;
+  color: hsl(208, 11%, 55%);
+  font-size: 20px;
+}
+.cont1 h1 {
+  position: relative;
+  right: -100px;
+  top: 120px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: hsl(192, 100%, 9%);
+}
+.cont1 {
+  position: relative;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 100px;
+  top: 30px;
+  background-color: white;
+  box-shadow: 1px 1px 9px rgb(220, 218, 218);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.cont1:hover {
+  transform: scale(1.1);
+}
+
+.cont2 {
+  position: relative;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 100px;
+  top: -100px;
+  box-shadow: 1px 1px 9px rgb(220, 218, 218);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.cont2:hover {
+  transform: scale(1.1);
+}
+.cont3 {
+  position: relative;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 100px;
+  top: -200px;
+  box-shadow: 1px 1px 9px rgb(220, 218, 218);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.cont3:hover {
+  transform: scale(1.1);
+}
+.cont2 img {
+  position: relative;
+  left: 96px;
+}
+.cont2 p {
+  position: relative;
+  right: -600px;
+  top: 130px;
+  font-family: "Poppins", sans-serif;
+  color: hsl(208, 11%, 55%);
+  font-size: 20px;
+}
+.cont2 h1 {
+  position: relative;
+  right: -600px;
+  top: 120px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: hsl(192, 100%, 9%);
+}
+.cont2 img {
+  width: 360px;
+  position: relative;
+  right: -840px;
+  top: -50px;
+}
+.cont3 img {
+  width: 360px;
+  position: relative;
+  right: -750px;
+  top: -40px;
+}
+.cont3 p {
+  position: relative;
+  right: -100px;
+  top: 130px;
+  font-family: "Poppins", sans-serif;
+  color: hsl(208, 11%, 55%);
+  font-size: 20px;
+}
+.cont3 h1 {
+  position: relative;
+  right: -100px;
+  top: 120px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: hsl(192, 100%, 9%);
+}
+.pop-up {
+  z-index: 1;
+}
+.pop-up {
+  border: 1px solid black;
+  position: relative;
+  right: 0px;
+  top: -500px;
+  text-align: center;
+  padding: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 9px rgb(218, 218, 218);
+}
+.pop-up h1 {
+  position: relative;
+  top: -30px;
+  font-size: 30px;
+}
+.pop-up button {
+  border: 1px solid hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  transition: background-color 2s ease-out 100ms;
+  color: white;
+  transition: 0.5s;
+  box-shadow: 1px 1px 9px rgb(218, 218, 218);
+  padding: 14px 70px 14px;
+  border-radius: 30px;
+}
+.pop-up button:hover {
+  background-color: hsl(322, 100%, 82%);
+  transform: scale(1.1);
+  border: 1px solid hsl(322, 100%, 82%);
+  color: hsl(322, 31%, 33%);
+}
+.side-footer {
+  position: relative;
+  background-color: hsl(192, 100%, 9%);
+  justify-content: space-around;
+  color: white;
+  overflow: hidden;
+  padding: 100px 90px 100px;
+  top: -530px;
+  height: 25vh;
+}
+.side-footer p {
+  position: relative;
+  right: -40px;
+}
+.side-footer img {
+  width: 200px;
+  position: relative;
+  right: -20px;
+  top: -30px;
+}
+.side-footer p i {
+  position: relative;
+  right: 20px;
+}
+.side-footer .page1 {
+  position: relative;
+  right: -600px;
+  top: -150px;
+}
+.page1 ul li {
+  list-style: none;
+  transition: 0.5s;
+}
+.page2 ul li {
+  list-style: none;
+  transition: 0.5s;
+}
+.side-footer,
+.page2 ul li:hover {
+  transform: scale(1.1);
+}
+.side-footer,
+.page1 ul li:hover {
+  transform: scale(1.1);
+}
+.side-footer .page2 {
+  position: relative;
+  right: -800px;
+  top: -270px;
+}
+.side-footer .social i {
+  position: relative;
+  right: -1100px;
+  top: -360px;
+  transition: 0.5s;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 10px;
+}
+.side-footer .social i:hover {
+  transform: scale(1.1);
+  color: hsl(322, 100%, 66%);
+}
+.side-footer .copyright {
+  position: relative;
+  right: -950px;
+  top: -300px;
+}
+@media only screen and (max-width: 375px){
+  body {
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+  
+  .logo img {
+    margin: 40px;
+    width: 170px;
+  }
+  .second-banner img {
+    margin-top: 60px;
+    width: 590px;
+    position: relative;
+    right: -780px;
+    top: -45px;
+  }
+  .main-banner .free {
+    position: relative;
+    right: -1200px;
+    top: -70px;
+    padding: 10px 60px 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 9px rgb(218, 218, 218);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    transition: background-color 2s ease-out 100ms;
+    transition: 0.5s;
+  }
+  .main-banner .free:hover {
+    background-color: hsl(0, 0%, 100%);
+    transform: scale(1.1);
+    border: 1px solid hsl(0, 0%, 100%);
+    color: hsl(300, 1%, 62%);
+  }
+  .main-banner h1 {
+    position: relative;
+    top: -420px;
+    right: -40px;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  .main-banner p {
+    position: relative;
+    top: -420px;
+    right: -40px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  .main-banner .get-free {
+    position: relative;
+    top: -400px;
+    right: -40px;
+    padding: 14px 70px 14px;
+    border-radius: 30px;
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    transition: background-color 2s ease-out 100ms;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 1px 1px 9px rgb(218, 218, 218);
+  }
+  .main-banner .get-free:hover {
+    background-color: hsl(322, 100%, 82%);
+    transform: scale(1.1);
+    border: 1px solid hsl(322, 100%, 82%);
+    color: hsl(322, 31%, 33%);
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -300px;
+    height: 290vh;
+    background-color: white;
+  }
+  .cont1 img {
+    width: 360px;
+    position: relative;
+    right: -780px;
+    top: -70px;
+  }
+  .cont1 p {
+    position: relative;
+    right: -100px;
+    top: 140px;
+    font-family: "Poppins", sans-serif;
+    color: hsl(208, 11%, 55%);
+    font-size: 20px;
+  }
+  .cont1 h1 {
+    position: relative;
+    right: -100px;
+    top: 120px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: hsl(192, 100%, 9%);
+  }
+  .cont1 {
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 100px;
+    top: 30px;
+    background-color: white;
+    box-shadow: 1px 1px 9px rgb(220, 218, 218);
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  .cont1:hover {
+    transform: scale(1.1);
+  }
+  
+  .cont2 {
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 100px;
+    top: -100px;
+    box-shadow: 1px 1px 9px rgb(220, 218, 218);
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  .cont2:hover {
+    transform: scale(1.1);
+  }
+  .cont3 {
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 100px;
+    top: -200px;
+    box-shadow: 1px 1px 9px rgb(220, 218, 218);
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  .cont3:hover {
+    transform: scale(1.1);
+  }
+  .cont2 img {
+    position: relative;
+    left: 96px;
+  }
+  .cont2 p {
+    position: relative;
+    right: -600px;
+    top: 130px;
+    font-family: "Poppins", sans-serif;
+    color: hsl(208, 11%, 55%);
+    font-size: 20px;
+  }
+  .cont2 h1 {
+    position: relative;
+    right: -600px;
+    top: 120px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: hsl(192, 100%, 9%);
+  }
+  .cont2 img {
+    width: 360px;
+    position: relative;
+    right: -840px;
+    top: -50px;
+  }
+  .cont3 img {
+    width: 360px;
+    position: relative;
+    right: -750px;
+    top: -40px;
+  }
+  .cont3 p {
+    position: relative;
+    right: -100px;
+    top: 130px;
+    font-family: "Poppins", sans-serif;
+    color: hsl(208, 11%, 55%);
+    font-size: 20px;
+  }
+  .cont3 h1 {
+    position: relative;
+    right: -100px;
+    top: 120px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: hsl(192, 100%, 9%);
+  }
+  .pop-up {
+    z-index: 1;
+  }
+  .pop-up {
+    border: 1px solid black;
+    position: relative;
+    right: 0px;
+    top: -500px;
+    text-align: center;
+    padding: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 9px rgb(218, 218, 218);
+  }
+  .pop-up h1 {
+    position: relative;
+    top: -30px;
+    font-size: 30px;
+  }
+  .pop-up button {
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    transition: background-color 2s ease-out 100ms;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 1px 1px 9px rgb(218, 218, 218);
+    padding: 14px 70px 14px;
+    border-radius: 30px;
+  }
+  .pop-up button:hover {
+    background-color: hsl(322, 100%, 82%);
+    transform: scale(1.1);
+    border: 1px solid hsl(322, 100%, 82%);
+    color: hsl(322, 31%, 33%);
+  }
+  .side-footer {
+    position: relative;
+    background-color: hsl(192, 100%, 9%);
+    justify-content: space-around;
+    color: white;
+    overflow: hidden;
+    padding: 100px 90px 100px;
+    top: -530px;
+    height: 25vh;
+  }
+  .side-footer p {
+    position: relative;
+    right: -40px;
+  }
+  .side-footer img {
+    width: 200px;
+    position: relative;
+    right: -20px;
+    top: -30px;
+  }
+  .side-footer p i {
+    position: relative;
+    right: 20px;
+  }
+  .side-footer .page1 {
+    position: relative;
+    right: -600px;
+    top: -150px;
+  }
+  .page1 ul li {
+    list-style: none;
+    transition: 0.5s;
+  }
+  .page2 ul li {
+    list-style: none;
+    transition: 0.5s;
+  }
+  .side-footer,
+  .page2 ul li:hover {
+    transform: scale(1.1);
+  }
+  .side-footer,
+  .page1 ul li:hover {
+    transform: scale(1.1);
+  }
+  .side-footer .page2 {
+    position: relative;
+    right: -800px;
+    top: -270px;
+  }
+  .side-footer .social i {
+    position: relative;
+    right: -1100px;
+    top: -360px;
+    transition: 0.5s;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  .side-footer .social i:hover {
+    transform: scale(1.1);
+    color: hsl(322, 100%, 66%);
+  }
+  .side-footer .copyright {
+    position: relative;
+    right: -950px;
+    top: -300px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url(./images/bg-hero-mobile.svg);
+    background-color: hsl(193, 100%, 96%);
+    overflow-x: hidden;
+  }
+
+  .logo img {
+    margin: 20px;
+    width: 99px;
+  }
+
+  .second-banner img {
+    margin-top: 40px;
+    width: 300px;
+    position: relative;
+    right: -40px;
+    top: 190px;
+  }
+
+  .main-banner .free {
+    position: relative;
+    right: -230px;
+    top: -50px;
+    padding: 5px 40px;
+    font-size: 10px;
+    border-radius: 20px;
+  }
+
+  .main-banner h1 {
+    position: relative;
+    top: -260px;
+    font-size: 28px;
+    text-align: center;
+    right: -9px;
+  }
+
+  .main-banner p {
+    font-size: 10px;
+    position: relative;
+    right: -5px;
+    top: -250px;
+    text-align: center;
+  }
+
+  .main-banner .get-free {
+    padding: 10px 50px;
+    font-size: 10px;
+    position: relative;
+    top: -240px;
+    right: -90px;
+  }
+
+  .container {
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .cont1 {
+    position: relative;
+    top: 30px;
+    padding: 10px 40px 10px;
+    margin: 20px;
+  }
+  .cont1 img {
+    width: 150px;
+    position: relative;
+    right: -50px;
+    top: -140px;
+  }
+  .cont1 p {
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    right: -5px;
+    top: 130px;
+  }
+
+  .cont1 h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 15px;
+    position: relative;
+    right: -5px;
+    top: 150px;
+  }
+
+  .cont2 {
+    position: relative;
+    top: 10px;
+    padding: 10px 40px 40px;
+    margin: 20px;
+    background-color: white;
+  }
+  .cont2 img {
+    width: 150px;
+    position: relative;
+    left: 50px;
+    top: -100px;
+  }
+  .cont2 p {
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    right: -5px;
+    top: 130px;
+  }
+
+  .cont2 h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 15px;
+    position: relative;
+    right: -5px;
+    top: 150px;
+  }
+
+  .container {
+    position: relative;
+    top: 100px;
+  }
+  .cont3 {
+    position: relative;
+    top: -10px;
+    padding: 10px 40px 40px;
+    margin: 20px;
+    background-color: white;
+  }
+  .cont3 img {
+    width: 150px;
+    position: relative;
+    right: -50px;
+    top: -140px;
+  }
+  .cont3 p {
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    right: -5px;
+    top: 130px;
+  }
+
+  .cont3 h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 15px;
+    position: relative;
+    right: -5px;
+    top: 150px;
+  }
+
+  .pop-up {
+    position: relative;
+    right: 0;
+    top: 20px;
+    padding: 20px 30px 20px;
+    margin: 60px;
+  }
+
+  .pop-up h1 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -6px;
+  }
+
+  .pop-up button {
+    padding: 9px 20px;
+    font-size: 9px;
+  }
+
+  .side-footer {
+    background-color: hsl(192, 100%, 9%);
+    padding-bottom: 1000px;
+    position: relative;
+    top: -80px;
+    
+  }
+  .side-footer img {
+    width: 180px;
+    position: relative;
+    top: 20px;
+    right: 20px;
+  }
+  .side-footer p {
+    position: relative;
+    top:30px;
+    right: 8px;
+
+  }
+  .side-footer, p{
+    font-size: 10px;
+    direction: ltr;
+
+  }
+
+
+  .discription {
+    text-align: center;
+    margin: 10px;
+  }
+
+
+  .side-footer .page1{
+    position: relative;
+    right: 30px;
+    top: 50px;
+  }
+  .side-footer .page2{
+    position: relative;
+    right: 30px;
+    top: 60px;
+  }
+
+  .side-footer .social i {
+    position: relative;
+    right: -30px;
+    top: 90px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  .side-footer .copyright{
+    position: relative;
+    right: 9px;
+    top: 99px;
+
+  }
+  .side-footer .copyright, p{
+     font-size: 10px;
+
+  }
+  
+
+}
